@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd backend & nodemon index \" \"cd frontend & npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
